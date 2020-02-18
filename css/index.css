@@ -3667,7 +3667,11 @@ input[type="button"].btn-block {
       @media (max-width: 767.98px) {
         .transparent-text__info span {
           font-size: 4.5rem;
-          padding-left: 0; } }
+          padding-left: 0;
+          -webkit-background-clip: inherit;
+          -webkit-text-fill-color: inherit;
+          color: #fff;
+          background: none; } }
 
 .zero {
   position: absolute;
