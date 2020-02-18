@@ -24107,6 +24107,18 @@ var main = {
         return false;
       });
     });
+    var formBtn = $('.js-total-block__btn');
+    var form = $('.form');
+    formBtn.on('click', function () {
+      form.addClass('form--active');
+    });
+    $(document).mouseup(function (e) {
+      var $target = $(e.target);
+
+      if ($target.closest(".form__inner").length === 0) {
+        $(".form").removeClass("form--active");
+      }
+    });
   }
 };
 /* harmony default export */ __webpack_exports__["a"] = (main);

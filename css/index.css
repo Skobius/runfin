@@ -4817,4 +4817,155 @@ input[type="button"].btn-block {
     background: #f6705f;
     border: 1px solid #f6705f; }
 
+.form {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  background-color: rgba(0, 0, 0, .7);
+  width: 100%;
+  height: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .form--active {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .form__zero {
+    position: absolute;
+    top: -180px;
+    top: -11.25rem;
+    left: -42px;
+    left: -2.625rem;
+    color: #fff8e4;
+    font-size: 708px;
+    font-size: 44.25rem;
+    font-weight: 400;
+    letter-spacing: 1.35px;
+    z-index: 2; }
+  .form__inner {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    background: #fff;
+    width: 625px;
+    width: 39.0625rem;
+    padding-top: 72px;
+    padding-top: 4.5rem;
+    padding-bottom: 74px;
+    padding-bottom: 4.625rem; }
+    @media (max-width: 767.98px) {
+      .form__inner {
+        width: 100%; } }
+  .form__header {
+    position: relative;
+    z-index: 3;
+    color: #000;
+    font-size: 24px;
+    font-size: 1.5rem;
+    font-weight: 900;
+    letter-spacing: 1.2px;
+    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
+    width: 100%;
+    text-align: center; }
+  .form__input-block {
+    position: relative;
+    z-index: 3;
+    color: #000;
+    font-size: 18px;
+    font-size: 1.125rem;
+    font-weight: 400;
+    letter-spacing: 1.35px;
+    margin-bottom: 15px;
+    margin-bottom: 0.9375rem;
+    width: 100%;
+    text-align: right;
+    padding-right: 124px; }
+    .form__input-block input {
+      border: 1px solid #f6705f;
+      width: 259px;
+      width: 16.1875rem;
+      height: 42px;
+      height: 2.625rem;
+      padding-left: 10px;
+      padding-left: 0.625rem;
+      color: #000;
+      font-size: 18px;
+      font-size: 1.125rem;
+      font-weight: 400;
+      letter-spacing: 1.35px; }
+      .form__input-block input::-webkit-input-placeholder {
+        color: #6c6c6c; }
+      .form__input-block input:-ms-input-placeholder {
+        color: #6c6c6c; }
+      .form__input-block input::-ms-input-placeholder {
+        color: #6c6c6c; }
+      .form__input-block input::-moz-placeholder {
+        color: #6c6c6c; }
+      .form__input-block input::placeholder {
+        color: #6c6c6c; }
+  .form__btn {
+    position: relative;
+    z-index: 3;
+    margin-top: 20px;
+    margin-top: 1.25rem;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 358px;
+    width: 22.375rem;
+    height: 94px;
+    height: 5.875rem;
+    -webkit-box-shadow: 0 0.1875rem 1.1875rem 0.3125rem rgba(0, 0, 0, .11);
+            box-shadow: 0 0.1875rem 1.1875rem 0.3125rem rgba(0, 0, 0, .11);
+    background-color: #f6705f;
+    color: #fff;
+    font-size: 24px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 1.8px;
+    outline: none;
+    border: none;
+    margin-right: 124px;
+    margin-right: 7.75rem; }
+    .form__btn:hover {
+      opacity: .8; }
+    @media (max-width: 767.98px) {
+      .form__btn {
+        width: 28.5625rem;
+        height: 6.6875rem;
+        font-size: 1.875rem; } }
+    .form__btn svg {
+      width: 64px;
+      width: 4rem;
+      height: 62px;
+      height: 3.875rem;
+      margin-right: 12px;
+      margin-right: 0.75rem; }
+      @media (max-width: 767.98px) {
+        .form__btn svg {
+          width: 3.3125rem;
+          height: 3.1875rem; } }
+
 /*# sourceMappingURL=index.css.map*/
