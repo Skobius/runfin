@@ -3652,7 +3652,8 @@ input[type="button"].btn-block {
         padding-left: 3.4375rem;
         padding-top: 0.9375rem;
         padding-bottom: 1.1875rem;
-        max-width: 32.5rem; } }
+        max-width: 32.5rem;
+        color: #fff; } }
     .transparent-text__info span {
       font-size: 98px;
       font-size: 6.125rem;
