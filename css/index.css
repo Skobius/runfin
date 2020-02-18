@@ -3590,11 +3590,12 @@ input[type="button"].btn-block {
         background-color: #fff8e4;
         margin-left: -3.625rem;
         padding-left: 3.625rem;
-        padding-bottom: 0.5rem;
+        padding-bottom: 1.875rem;
         max-width: 32.5rem;
         letter-spacing: 2px;
         margin-top: 13.25rem;
-        line-height: 4.5rem; } }
+        line-height: 3.25rem;
+        padding-top: 1.25rem; } }
   .main__text {
     position: relative;
     z-index: 7;
@@ -3635,7 +3636,7 @@ input[type="button"].btn-block {
   background-size: cover;
   position: absolute;
   width: 100%;
-  z-index: 3; }
+  z-index: 5; }
   @media (max-width: 767.98px) {
     .transparent-text {
       padding-top: 11.75rem; } }
@@ -3645,7 +3646,7 @@ input[type="button"].btn-block {
     padding: 0 1.25rem 0.625rem 0;
     background: #f6705f;
     display: inline-block;
-    z-index: 5; }
+    z-index: 6; }
     @media (max-width: 767.98px) {
       .transparent-text__info {
         padding-left: 3.4375rem;
@@ -3687,9 +3688,9 @@ input[type="button"].btn-block {
   .zero--top {
     max-width: 375px;
     max-width: 23.4375rem;
-    z-index: 6; }
+    z-index: 7; }
   .zero--bottom {
-    z-index: 4; }
+    z-index: 5; }
 
 .logo-first {
   position: relative;
@@ -4514,6 +4515,9 @@ input[type="button"].btn-block {
     font-size: 1.25rem;
     color: #acacac;
     font-weight: 400; }
+    @media (min-width: 767px) {
+      .header__menu a {
+        font-size: 1.875rem; } }
     .header__menu a:not(:last-child) {
       margin-right: 20px;
       margin-right: 1.25rem; }
