@@ -3172,22 +3172,22 @@ html {
       font-size: 14px; } }
   @media (min-width: 1600px) and (max-width: 1699px) {
     html {
-      font-size: 14px; } }
+      font-size: 13.5px; } }
   @media (min-width: 1500px) and (max-width: 1599px) {
     html {
-      font-size: 13px; } }
+      font-size: 12.5px; } }
   @media (min-width: 1400px) and (max-width: 1499px) {
     html {
-      font-size: 9px; } }
+      font-size: 11.7px; } }
   @media (min-width: 1300px) and (max-width: 1399px) {
     html {
-      font-size: 12px; } }
+      font-size: 11px; } }
   @media (min-width: 1200px) and (max-width: 1299px) {
     html {
-      font-size: 12px; } }
+      font-size: 10px; } }
   @media (min-width: 1100px) and (max-width: 1199px) {
     html {
-      font-size: 10.5px; } }
+      font-size: 9px; } }
   @media (min-width: 1024px) and (max-width: 1099px) {
     html {
       font-size: 9px; } }
@@ -3634,8 +3634,7 @@ input[type="button"].btn-block {
   background-color: #f3f3f3;
   background-size: cover;
   position: absolute;
-  width: 100%;
-  z-index: 1; }
+  width: 100%; }
   @media (max-width: 767.98px) {
     .transparent-text {
       padding-top: 11.75rem; } }
@@ -3734,7 +3733,8 @@ input[type="button"].btn-block {
   font-weight: 400;
   letter-spacing: 1.35px;
   -webkit-transform: translate(0, 0);
-          transform: translate(0, 0); }
+          transform: translate(0, 0);
+  text-decoration: none; }
   @media (max-width: 767.98px) {
     .down-btn {
       display: none; } }
@@ -4386,6 +4386,8 @@ input[type="button"].btn-block {
     letter-spacing: 1.8px;
     outline: none;
     border: none; }
+    .total-block__btn:hover {
+      opacity: .8; }
     @media (max-width: 767.98px) {
       .total-block__btn {
         width: 28.5625rem;
@@ -4607,6 +4609,8 @@ input[type="button"].btn-block {
       @media (max-width: 767.98px) {
         .nselect .nselect__head:after {
           top: 1.875rem !important; } }
+  .nselect .nselect__list LI SPAN:hover {
+    background: #f6705f !important; }
   .nselect .nselect__inner {
     width: 300px !important;
     width: 18.75rem !important; }

@@ -24097,6 +24097,16 @@ var main = {
       menu.toggleClass('header__menu--active');
       menuLink.toggleClass('header__menu-logo--active');
     });
+    $(document).ready(function () {
+      $("a.scrollto").click(function () {
+        var elementClick = $(this).attr("href");
+        var destination = $(elementClick).offset().top;
+        jQuery("html:not(:animated),body:not(:animated)").animate({
+          scrollTop: destination
+        }, 800);
+        return false;
+      });
+    });
   }
 };
 /* harmony default export */ __webpack_exports__["a"] = (main);
