@@ -3631,10 +3631,11 @@ input[type="button"].btn-block {
   padding: 16.125rem 0 43.75rem;
   background: url(../images/style/background.png) no-repeat center -76px;
   background: url(../images/style/background.png) no-repeat center -4.75rem;
-  background-color: #f3f3f3;
+  background-color: transparent;
   background-size: cover;
   position: absolute;
-  width: 100%; }
+  width: 100%;
+  z-index: 3; }
   @media (max-width: 767.98px) {
     .transparent-text {
       padding-top: 11.75rem; } }
@@ -3799,10 +3800,10 @@ input[type="button"].btn-block {
 .gray-block {
   position: relative;
   background: #f3f3f3;
-  margin-top: 15px;
-  margin-top: 0.9375rem;
-  padding-top: 155px;
-  padding-top: 9.6875rem;
+  margin-top: -160px;
+  margin-top: -10rem;
+  padding-top: 332px;
+  padding-top: 20.75rem;
   overflow: hidden; }
   @media (max-width: 767.98px) {
     .gray-block {
@@ -3830,8 +3831,8 @@ input[type="button"].btn-block {
     position: absolute;
     right: -260px;
     right: -16.25rem;
-    top: 0px;
-    top: 0rem;
+    top: 178px;
+    top: 11.125rem;
     z-index: 1;
     width: 897px;
     width: 56.0625rem;
