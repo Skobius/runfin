@@ -4460,11 +4460,11 @@ input[type="button"].btn-block {
     .header__menu-logo--active .header__menu-logo-middle {
       display: none; }
     .header__menu-logo--active .header__menu-logo-top {
-      -webkit-transform: rotate(45deg) translate(10px, 10px);
-              transform: rotate(45deg) translate(10px, 10px); }
+      -webkit-transform: rotate(45deg) translate(0.625rem, 0.625rem);
+              transform: rotate(45deg) translate(0.625rem, 0.625rem); }
     .header__menu-logo--active .header__menu-logo-bottom {
-      -webkit-transform: rotate(-45deg) translate(8px, -9px);
-              transform: rotate(-45deg) translate(8px, -9px); }
+      -webkit-transform: rotate(-45deg) translate(0.5rem, -0.5625rem);
+              transform: rotate(-45deg) translate(0.5rem, -0.5625rem); }
     .header__menu-logo-top {
       width: 40px;
       width: 2.5rem;
